@@ -1,24 +1,127 @@
+* {
+margin: 0;
+padding: 0;
+}
+
 .calculator{
-  height: 600px;
-  width: 400px;
+  height: 500px;
+  width: 415px;
+  background-color: #83C178;
 }
 
 .button_number{
+background-color:#61B34F;
+height: 100px;
+width: 100px;
+font-size: 30pt;
+}
 
+.button_clear{
+background-color: #83C178;
+width: 24%;
+height: 100px;
+font-size: 30px;
+}
+
+.button_clear:hover{
+  background-color: darkblue;
+}
+
+.button{
+  background-color:#61B34F;
+  height: 100px;
+  width: 100px;
+  font-size: 30pt;
+}
+
+.button_things_equals{
+  background-color:#61B34F;
+  height: 100px;
+  width: 100px;
+  font-size: 30pt;
+}
+
+.button_things_equals:hover{
+  background-color: #83C178;
 }
 
 .button_things{
-
+  background-color:#83C178;
+  height: 100px;
+  width: 100px;
+  font-size: 30pt;
 }
 
-.button_things equals{
-
+.button_things:hover{
+  color: white;
 }
 
-.button_things last{
+.button_number:hover{
+background-color: #83C178;
+}
 
+.button_things_sum{
+background-color: #83C178;
+height: 100px;
+width: 100px;
+font-size: 30pt;
+}
+
+.button_things_sum:hover{
+  color: white;
+}
+
+.button_things_last{
+  background-color:#83C178;
+  height: 100px;
+  width: 100px;
+  font-size: 30pt;
+}
+
+.button_things_last:hover{
+  color: white;
+}
+
+.button_things_point{
+  background-color:#61B34F;
+  height: 100px;
+  width: 100px;
+  font-size: 30pt;
+}
+
+.button_things_point:hover{
+  background-color: #83C178;
 }
 
 .output{
+  float: right;
+  width: 75%;
+  background-color: #83C178;
+  height: 100px;
+  font-size: 50pt;
+  text-align: right;
+}
 
+.output:hover{
+  background-color: lightblue;
+}
+
+.row1{
+  border-collapse: collapse;
+}
+
+.row2{
+  border-collapse: collapse;
+}
+
+.row3{
+  border-collapse: collapse;
+}
+
+.row4{
+  border-collapse: collapse;
+}
+
+.row5{
+  border-collapse: collapse;
 }

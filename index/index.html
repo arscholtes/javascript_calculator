@@ -4,44 +4,45 @@
 <head>
   <meta charset="utf-8">
   <title>Calculator</title>
-<script async type="text/javascript" src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <script async type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="/Users/ascholtes/TheIronYard/week-three-project/style/style.css">
 </head>
 
 <body>
   <div class="calculator">
-        <div class='row1'>
-           <input type="button" class = "button_obliterate" value="C" onclick="clickClear(this.value)">
-          <div class="output">0</div>
-        </div>
+    <div class='row1'>
+      <input type="button" id='clear' class="button_clear" value="C" onclick="clickClear(this.value)">
+      <div class="output">0</div>
+    </div>
 
-        <div class='row2'>
-          <input type="button" class = "button_number" value="7" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_number" value="8" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_number" value="9" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_things last" value="/" onclick="clickMathy(this.value)">
-        </div>
+    <div class='row2'>
+      <input type="button" class="button_number" value="7" onclick="clickNumber(this.value)">
+      <input type="button" class="button_number" value="8" onclick="clickNumber(this.value)">
+      <input type="button" class="button_number" value="9" onclick="clickNumber(this.value)">
+      <input type="button" class="button_things_last" value="/" onclick="clickMathy(this.value)">
+    </div>
 
-        <div class='row3'>
-          <input type="button" class = "button_number" value="4" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_number" value="5" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_number" value="6" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_things last" id="*" value="X" onclick="clickMathy(this.id)">
-        </div>
+    <div class='row3'>
+      <input type="button" class="button_number" value="4" onclick="clickNumber(this.value)">
+      <input type="button" class="button_number" value="5" onclick="clickNumber(this.value)">
+      <input type="button" class="button_number" value="6" onclick="clickNumber(this.value)">
+      <input type="button" class="button_things_last" id="*" value="X" onclick="clickMathy(this.id)">
+    </div>
 
-        <div class='row4'>
-          <input type="button" class = "button_number" value="1" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_number" value="2" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_number" value="3" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_things" value="-" onclick="clickMathy(this.value)">
-        </div>
+    <div class='row4'>
+      <input type="button" class="button_number" value="1" onclick="clickNumber(this.value)">
+      <input type="button" class="button_number" value="2" onclick="clickNumber(this.value)">
+      <input type="button" class="button_number" value="3" onclick="clickNumber(this.value)">
+      <input type="button" class="button_things" value="-" onclick="clickMathy(this.value)">
+    </div>
 
-        <div class='row5'>
-          <input type="button" class = "button_number" value="0" onclick="clickNumber(this.value)">
-          <input type="button" class = "button_things" value="." onclick="">
-          <input type="button" class = "button_things equals" value="=" onclick="clickEquals(this.value)">
-          <input type="button" class = "button_things last" value="+" onclick="clickMathy(this.value)">
-        </div>
+    <div class='row5'>
+      <input type="button" class="button_number" value="0" onclick="clickNumber(this.value)">
+      <input type="button" class="button_things_point" value="." onclick="">
+      <input type="button" class="button_things_equals" value="=" onclick="clickEquals(this.value)">
+      <input type="button" class="button_things_sum" value="+" onclick="clickMathy(this.value)">
+    </div>
   </div>
 </body>
+
 </html>
