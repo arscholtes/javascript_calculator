@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <script async type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="/Users/ascholtes/TheIronYard/week-three-project/style/style.css">
+</head>
+
+<body>
+  <div class="calculator">
+    <div class='row1'>
+      <input type="button" class="button_clear" value="C" onclick="clear(this.value)"></input>
+      <div class="output">0</div>
+    </div>
+
+    <div class='row2'>
+      <input type="button" class="button number" value="7" onclick="number(this.value)"></input>
+      <input type="button" class="button number" value="8" onclick="number(this.value)"></input>
+      <input type="button" class="button number" value="9" onclick="number(this.value)"></input>
+      <input type="button" class="button things last" value="/" onclick="operator(this.value)"></input>
+    </div>
+
+    <div class='row3'>
+      <input type="button" class="button number" value="4" onclick="number(this.value)"></input>
+      <input type="button" class="button number" value="5" onclick="number(this.value)"></input>
+      <input type="button" class="button number" value="6" onclick="number(this.value)"></input>
+      <input type="button" class="button things last" id="*" value="X" onclick="operator(this.id)"></input>
+    </div>
+
+    <div class='row4'>
+      <input type="button" class="button number" value="1" onclick="number(this.value)"></input>
+      <input type="button" class="button number" value="2" onclick="number(this.value)"></input>
+      <input type="button" class="button number" value="3" onclick="number(this.value)"></input>
+      <input type="button" class="button things" value="-" onclick="operator(this.value)"></input>
+    </div>
+
+    <div class='row5'>
+      <input type="button" class="button number" value="0" onclick="number(this.value)"></input>
+      <input type="button" class="button things point" value="." onclick="number(this.value)"></input>
+      <input type="button" class="button things equals" value="=" onclick="equal(this.value)"></input>
+      <input type="button" class="button things sum" value="+" onclick="operator(this.value)"></input>
+    </div>
+  </div>
+</body>
+
+</html>
