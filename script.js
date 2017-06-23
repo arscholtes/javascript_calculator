@@ -87,7 +87,7 @@ function equal(eClicked) { // Create a new variable 'temp', and split up groupin
   document.querySelector('.output').textContent = mathStore; // print the result of the equation to the textbox
 }
 
-function clear(cClicked) { // should be clearing the textbox
+function clearAll(cClicked) { // should be clearing the textbox
   mathStore = [];
   numStore = "";
   document.querySelector('.output').textContent = mathStore;
